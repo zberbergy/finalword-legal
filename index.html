@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinalWord</title>
+  <meta name="description" content="FinalWord — word search puzzle game for iOS.">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">
+      <span class="brand-mark">FW</span>
+      <span>FinalWord</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="card hero">
+      <h1>FinalWord</h1>
+      <p>Find hidden words, progress through levels, and enjoy a calm word search experience on iOS.</p>
+
+      <nav class="link-grid" aria-label="Site pages">
+        <a class="link-card" href="/privacy-policy.html">
+          <strong>Privacy Policy</strong>
+          <span>How we handle data and advertising in the app.</span>
+        </a>
+        <a class="link-card" href="/terms.html">
+          <strong>Terms of Use</strong>
+          <span>Apple Standard Licensed Application EULA.</span>
+        </a>
+        <a class="link-card" href="/support.html">
+          <strong>Support</strong>
+          <span>Contact us for help, feedback, or account questions.</span>
+        </a>
+      </nav>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> FinalWord. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

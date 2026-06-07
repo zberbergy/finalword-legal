@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — FinalWord</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">
+      <span class="brand-mark">FW</span>
+      <span>FinalWord</span>
+    </a>
+  </header>
+
+  <main>
+    <article class="card prose">
+      <a class="back-link" href="/">&larr; Back to home</a>
+      <h1 class="page-title">Support</h1>
+      <p class="page-meta">We're here to help with FinalWord on iOS.</p>
+
+      <p>
+        Need help with gameplay, purchases, ads, or anything else in FinalWord? Send us an email and
+        we'll get back to you as soon as we can.
+      </p>
+
+      <a class="support-email" href="mailto:magnetoryus@gmail.com">magnetoryus@gmail.com</a>
+
+      <h2>When contacting us, please include</h2>
+      <ul>
+        <li>Your device model and iOS version</li>
+        <li>A short description of the issue</li>
+        <li>Screenshots, if helpful</li>
+      </ul>
+
+      <h2>Restore purchases</h2>
+      <p>
+        If you previously purchased Remove Ads, open the in-app menu and tap
+        <strong>Restore Purchases</strong>. If the purchase still does not appear, email us from the
+        Apple ID used for the purchase.
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> FinalWord. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

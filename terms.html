@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Use — FinalWord</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">
+      <span class="brand-mark">FW</span>
+      <span>FinalWord</span>
+    </a>
+  </header>
+
+  <main>
+    <article class="card prose">
+      <a class="back-link" href="/">&larr; Back to home</a>
+      <h1 class="page-title">Terms of Use</h1>
+      <p class="page-meta">FinalWord uses Apple's Standard Licensed Application End User License Agreement.</p>
+
+      <p>
+        Your use of FinalWord is governed by Apple's Standard Licensed Application End User License
+        Agreement (EULA). By downloading or using the app, you agree to those terms.
+      </p>
+
+      <p>
+        Read the full agreement here:
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">
+          Apple Standard EULA
+        </a>
+      </p>
+
+      <p>
+        For support questions, visit our
+        <a href="/support.html">Support page</a>
+        or email
+        <a href="mailto:magnetoryus@gmail.com">magnetoryus@gmail.com</a>.
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> FinalWord. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
